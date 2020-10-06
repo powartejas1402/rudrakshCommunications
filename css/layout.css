@@ -868,6 +868,13 @@ fieldset[disabled] .btn-theme {
   margin-bottom: 10px;
 }
 
+.contact{
+  padding:4em 0;
+}
+.contact{
+    background: #ff9933;
+}
+
 /*--------------------------------------------------
     [Back To Top Theme Button]
 ----------------------------------------------------*/
@@ -1541,4 +1548,11 @@ fieldset[disabled] .btn-theme {
 
 .height-300 {
   height: 300px !important;
+}
+
+
+@media(max-width:414px){
+.contact {
+    padding: 2em 0;
+  }
 }
